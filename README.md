@@ -38,15 +38,5 @@ I have hands-on experience in:
 
 - [game-aigc-asset-workflow](https://github.com/kiana0512/game-aigc-asset-workflow)  
   Workflow experiments for controllable AIGC asset generation, covering prompt design, style control, batch production, and reusable generation pipelines.
-
-## Notes
-
-I prefer projects that are **practical, debuggable, and engineering-oriented**.  
-Besides model experimentation itself, I also pay close attention to:
-
-- data flow design
-- interface definition
-- pipeline stability
-- reproducibility
 - cross-module integration
 - documentation and iterative refinement
