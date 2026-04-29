@@ -2,39 +2,25 @@
 
 I am a master's student in **Information and Communication Engineering** at **East China University of Science and Technology (ECUST)**.
 
-My current work focuses on **AIGC, computer vision, multimodal image understanding, and practical system integration**. I am particularly interested in building complete pipelines that connect **model inference, data processing, visual analysis, content evaluation, and engineering integration**.
+My current focus is **AIGC content generation, 2D/3D asset pipelines, multimodal evaluation, LLM-Agent workflows, and UE5-based interactive systems**. I am interested in building practical pipelines that connect **prompt design, image generation, 3D asset generation, quality evaluation, rendering validation, and engineering integration**.
 
-## Technical Focus
+## Technical Interests
 
-My work is mainly centered on the combination of:
+- AIGC image generation with Stable Diffusion, ComfyUI, LoRA, and ControlNet
+- 2D-to-3D / Image-to-3D workflows with mesh, texture, PBR, Blender, and UE5
+- Multimodal content evaluation with CLIP/VLM, retrieval, alignment scoring, and badcase analysis
+- LLM-Agent workflows for prompt planning, report generation, tool use, and iterative content improvement
+- UE5 virtual human interaction, TTS, Morph Target control, and real-time prototyping
+- Graphics and rendering fundamentals, including PBR, toon shading, normal mapping, shadows, and post-processing
 
-- AIGC image generation and workflow systems
-- computer vision and image understanding
-- multimodal image-text analysis and evaluation
-- C++ / Python engineering
-- real-time system integration and debugging
-- practical model experimentation and deployment
+## Current Direction
 
-## Development Background
+I am currently organizing my projects around a practical AIGC content production pipeline:
 
-I have hands-on experience in:
-
-- **UE5 virtual human integration**, including real-time expression driving, JSON/TCP transport, preset playback, and debugging tools
-- **AI-assisted virtual human pipelines**, including the integration of open-source TTS components, text-to-audio generation, and downstream animation-driving workflows
-- **AIGC workflow construction**, including ComfyUI, Stable Diffusion, LoRA, ControlNet, prompt design, and batch generation experiments
-- **multimodal image analysis**, including image-text matching, similarity retrieval, batch scoring, anomaly inspection, and visual content evaluation
-- **research-oriented model experimentation**, including pseudo-label generation, quality-aware filtering, model training, evaluation, and experiment management
-
-## Featured Repositories
-
-- [ue5-virtual-human-bridge](https://github.com/kiana0512/ue5-virtual-human-bridge)  
-  Lightweight UE5 virtual human integration toolkit with real-time expression driving, TTS/audio input plumbing, TCP/JSON transport, preset playback, and WPF debugging tools.
-
-- [sam3-pseudo-labeling](https://github.com/kiana0512/sam3-pseudo-labeling)  
-  SAM3/MedSAM teacher-based pseudo-label generation and quality-aware filtering pipeline for label-efficient image segmentation experiments.
-
-- [multimodal-image-understanding-eval](https://github.com/kiana0512/multimodal-image-understanding-eval)  
-  Toolkit for image-text matching, similarity retrieval, batch scoring, anomaly inspection, and visual content quality evaluation.
-
-- [game-aigc-asset-workflow](https://github.com/kiana0512/game-aigc-asset-workflow)  
-  Workflow experiments for controllable AIGC asset generation, covering prompt design, style control, batch production, and reusable generation pipelines.
+```text
+Prompt / Requirement
+→ 2D Generation
+→ Multimodal Evaluation
+→ 3D Asset Generation
+→ Blender / UE5 Validation
+→ Agent-assisted Iteration
